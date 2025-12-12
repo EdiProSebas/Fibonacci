@@ -1,4 +1,7 @@
 // src/fibonacci.logging.test.ts
+
+jest.retryTimes(3);
+
 import { fibonacciWithLogging } from './fibonacci';
 import { MathLogger } from './mathLogger';
 

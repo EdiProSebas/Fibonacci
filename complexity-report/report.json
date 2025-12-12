@@ -1,0 +1,82 @@
+Mean per-function logical LOC: 5.416666666666666
+Mean per-function parameter count: 0.3333333333333333
+Mean per-function cyclomatic complexity: 1.9166666666666667
+Mean per-function Halstead effort: 975.205003340601
+Mean per-module maintainability index: 131.50288261817605
+First-order density: 0%
+Change cost: 25%
+Core size: 0%
+
+C:\Users\edipr\OneDrive\Documentos\DEBERES UIDE\QA\fibonacci-ci\dist\fibonacci.js
+
+  Physical LOC: 48
+  Logical LOC: 42
+  Mean parameter count: 1.3333333333333333
+  Cyclomatic complexity: 12
+  Cyclomatic complexity density: 28.57142857142857%
+  Maintainability index: 104.64614038258011
+  Dependency count: 0
+
+  Function: fibonacciWithLogging
+    Line No.: 7
+    Physical LOC: 19
+    Logical LOC: 15
+    Parameter count: 2
+    Cyclomatic complexity: 5
+    Cyclomatic complexity density: 33.33333333333333%
+    Halstead difficulty: 15.441176470588234
+    Halstead volume: 325
+    Halstead effort: 5018.382352941176
+
+  Function: fibonacciRecursive
+    Line No.: 26
+    Physical LOC: 9
+    Logical LOC: 7
+    Parameter count: 1
+    Cyclomatic complexity: 4
+    Cyclomatic complexity density: 57.14285714285714%
+    Halstead difficulty: 8.636363636363637
+    Halstead volume: 166.9080620655929
+    Halstead effort: 1441.4787178392114
+
+  Function: fibonacciMemo
+    Line No.: 37
+    Physical LOC: 12
+    Logical LOC: 10
+    Parameter count: 1
+    Cyclomatic complexity: 5
+    Cyclomatic complexity density: 50%
+    Halstead difficulty: 13.5
+    Halstead volume: 243.00301253822133
+    Halstead effort: 3280.540669265988
+
+C:\Users\edipr\OneDrive\Documentos\DEBERES UIDE\QA\fibonacci-ci\dist\fibonacci.logging.test.js
+
+  Physical LOC: 34
+  Logical LOC: 5
+  Mean parameter count: 0
+  Cyclomatic complexity: 1
+  Cyclomatic complexity density: 20%
+  Maintainability index: 125.81079028155372
+  Dependency count: 1
+
+C:\Users\edipr\OneDrive\Documentos\DEBERES UIDE\QA\fibonacci-ci\dist\fibonacci.test.js
+
+  Physical LOC: 1
+  Logical LOC: 1
+  Mean parameter count: 0
+  Cyclomatic complexity: 1
+  Cyclomatic complexity density: 100%
+  Maintainability index: 171
+  Dependency count: 0
+
+C:\Users\edipr\OneDrive\Documentos\DEBERES UIDE\QA\fibonacci-ci\dist\mathLogger.js
+
+  Physical LOC: 9
+  Logical LOC: 5
+  Mean parameter count: 0
+  Cyclomatic complexity: 1
+  Cyclomatic complexity density: 20%
+  Maintainability index: 124.55459980857037
+  Dependency count: 0
+

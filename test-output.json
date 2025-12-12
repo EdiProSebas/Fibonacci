@@ -1,0 +1,176 @@
+{
+  "numFailedTestSuites": 2,
+  "numFailedTests": 0,
+  "numPassedTestSuites": 2,
+  "numPassedTests": 6,
+  "numPendingTestSuites": 0,
+  "numPendingTests": 0,
+  "numRuntimeErrorTestSuites": 2,
+  "numTodoTests": 0,
+  "numTotalTestSuites": 4,
+  "numTotalTests": 6,
+  "openHandles": [],
+  "snapshot": {
+    "added": 0,
+    "didUpdate": false,
+    "failure": false,
+    "filesAdded": 0,
+    "filesRemoved": 0,
+    "filesRemovedList": [],
+    "filesUnmatched": 0,
+    "filesUpdated": 0,
+    "matched": 0,
+    "total": 0,
+    "unchecked": 0,
+    "uncheckedKeysByFile": [],
+    "unmatched": 0,
+    "updated": 0
+  },
+  "startTime": 1765566323519,
+  "success": false,
+  "testResults": [
+    {
+      "assertionResults": [],
+      "coverage": {},
+      "endTime": 1765566325912,
+      "message": "  \u001b[1m● \u001b[22mTest suite failed to run\n\n    Your test suite must contain at least one test.\n\n      \u001b[2mat onResult (\u001b[22mnode_modules/@jest/core/build/index.js\u001b[2m:1057:18)\u001b[22m\n      \u001b[2mat \u001b[22mnode_modules/@jest/core/build/index.js\u001b[2m:1127:165\u001b[22m\n      \u001b[2mat \u001b[22mnode_modules/emittery/index.js\u001b[2m:363:13\u001b[22m\n          at Array.map (<anonymous>)\n      \u001b[2mat Emittery.emit (\u001b[22mnode_modules/emittery/index.js\u001b[2m:361:23)\u001b[22m\n",
+      "name": "C:\\Users\\edipr\\OneDrive\\Documentos\\DEBERES UIDE\\QA\\fibonacci-ci\\dist\\fibonacci.test.js",
+      "startTime": 1765566325912,
+      "status": "failed",
+      "summary": ""
+    },
+    {
+      "assertionResults": [
+        {
+          "ancestorTitles": [
+            "fibonacciWithLogging — interacción con MathLogger"
+          ],
+          "duration": 6,
+          "failing": false,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "fibonacciWithLogging — interacción con MathLogger Debe llamar a logOperation una vez con (\"fibonacci\", n) para entrada válida",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 3,
+          "retryReasons": [],
+          "startAt": 1765566324333,
+          "status": "passed",
+          "title": "Debe llamar a logOperation una vez con (\"fibonacci\", n) para entrada válida"
+        },
+        {
+          "ancestorTitles": [
+            "fibonacciWithLogging — interacción con MathLogger"
+          ],
+          "duration": 6,
+          "failing": false,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "fibonacciWithLogging — interacción con MathLogger No debe llamar a logOperation si n es negativo (error antes de la invocación)",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 2,
+          "retryReasons": [],
+          "startAt": 1765566324340,
+          "status": "passed",
+          "title": "No debe llamar a logOperation si n es negativo (error antes de la invocación)"
+        },
+        {
+          "ancestorTitles": [
+            "fibonacciWithLogging — interacción con MathLogger"
+          ],
+          "duration": 1,
+          "failing": false,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "fibonacciWithLogging — interacción con MathLogger No debe llamar a logOperation si n no es entero (TypeError)",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 2,
+          "retryReasons": [],
+          "startAt": 1765566324346,
+          "status": "passed",
+          "title": "No debe llamar a logOperation si n no es entero (TypeError)"
+        }
+      ],
+      "endTime": 1765566324348,
+      "message": "",
+      "name": "C:\\Users\\edipr\\OneDrive\\Documentos\\DEBERES UIDE\\QA\\fibonacci-ci\\dist\\fibonacci.logging.test.js",
+      "startTime": 1765566323969,
+      "status": "passed",
+      "summary": ""
+    },
+    {
+      "assertionResults": [],
+      "coverage": {},
+      "endTime": 1765566325912,
+      "message": "  \u001b[1m● \u001b[22mTest suite failed to run\n\n    Your test suite must contain at least one test.\n\n      \u001b[2mat onResult (\u001b[22mnode_modules/@jest/core/build/index.js\u001b[2m:1057:18)\u001b[22m\n      \u001b[2mat \u001b[22mnode_modules/@jest/core/build/index.js\u001b[2m:1127:165\u001b[22m\n      \u001b[2mat \u001b[22mnode_modules/emittery/index.js\u001b[2m:363:13\u001b[22m\n          at Array.map (<anonymous>)\n      \u001b[2mat Emittery.emit (\u001b[22mnode_modules/emittery/index.js\u001b[2m:361:23)\u001b[22m\n",
+      "name": "C:\\Users\\edipr\\OneDrive\\Documentos\\DEBERES UIDE\\QA\\fibonacci-ci\\src\\fibonacci.test.ts",
+      "startTime": 1765566325912,
+      "status": "failed",
+      "summary": ""
+    },
+    {
+      "assertionResults": [
+        {
+          "ancestorTitles": [
+            "fibonacciWithLogging — interacción con MathLogger"
+          ],
+          "duration": 6,
+          "failing": false,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "fibonacciWithLogging — interacción con MathLogger Debe llamar a logOperation una vez con (\"fibonacci\", n) para entrada válida",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 3,
+          "retryReasons": [],
+          "startAt": 1765566325844,
+          "status": "passed",
+          "title": "Debe llamar a logOperation una vez con (\"fibonacci\", n) para entrada válida"
+        },
+        {
+          "ancestorTitles": [
+            "fibonacciWithLogging — interacción con MathLogger"
+          ],
+          "duration": 12,
+          "failing": false,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "fibonacciWithLogging — interacción con MathLogger No debe llamar a logOperation si n es negativo (error antes de la invocación)",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 2,
+          "retryReasons": [],
+          "startAt": 1765566325850,
+          "status": "passed",
+          "title": "No debe llamar a logOperation si n es negativo (error antes de la invocación)"
+        },
+        {
+          "ancestorTitles": [
+            "fibonacciWithLogging — interacción con MathLogger"
+          ],
+          "duration": 1,
+          "failing": false,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "fibonacciWithLogging — interacción con MathLogger No debe llamar a logOperation si n no es entero (TypeError)",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 2,
+          "retryReasons": [],
+          "startAt": 1765566325862,
+          "status": "passed",
+          "title": "No debe llamar a logOperation si n no es entero (TypeError)"
+        }
+      ],
+      "endTime": 1765566325864,
+      "message": "",
+      "name": "C:\\Users\\edipr\\OneDrive\\Documentos\\DEBERES UIDE\\QA\\fibonacci-ci\\src\\fibonacci.logging.test.ts",
+      "startTime": 1765566323957,
+      "status": "passed",
+      "summary": ""
+    }
+  ],
+  "wasInterrupted": false
+}

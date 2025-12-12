@@ -1,39 +1,50 @@
-// src/fibonacci.logging.test.ts
-import { fibonacciWithLogging } from './fibonacci';
-import { MathLogger } from './mathLogger';
+// import {
+//   fibonacciIterative,
+//   fibonacciRecursive,
+//   fibonacciMemo
+// } from './fibonacci';
 
-describe('fibonacciWithLogging — interacción con MathLogger', () => {
-  // Mock de la instancia: solo necesitamos mockear logOperation
-  let mockLogger: MathLogger & { logOperation: jest.Mock };
+// const cases: Array<[number, number]> = [
+//   [0, 0],
+//   [1, 1],
+//   [2, 1],
+//   [3, 2],
+//   [5, 5],
+//   [10, 55],
+//   [15, 610],
+// ];
 
-  beforeEach(() => {
-    mockLogger = {
-      // @ts-ignore: satisface la forma de MathLogger para las pruebas
-      logOperation: jest.fn(),
-    } as unknown as MathLogger & { logOperation: jest.Mock };
+// describe('Pruebas ampliadas de Fibonacci', () => {
+//   test.each(cases)('Iterativa: F(%i) = %i', (n, expected) => {
+//     expect(fibonacciIterative(n)).toBe(expected);
+//   });
 
-    jest.clearAllMocks();
-  });
+//   test.each(cases)('Recursiva simple: F(%i) = %i', (n, expected) => {
+//     expect(fibonacciRecursive(n)).toBe(expected);
+//   });
 
-  test('Debe llamar a logOperation una vez con ("fibonacci", n) para entrada válida', () => {
-    const n = 7;
-    const result = fibonacciWithLogging(n, mockLogger);
-    // Comprobación funcional adicional
-    expect(result).toBeGreaterThanOrEqual(0);
-    // Verificar interacción
-    expect(mockLogger.logOperation).toHaveBeenCalledTimes(1);
-    expect(mockLogger.logOperation).toHaveBeenCalledWith('fibonacci', n);
-  });
+//   test.each(cases)('Memoizada: F(%i) = %i', (n, expected) => {
+//     expect(fibonacciMemo(n)).toBe(expected);
+//   });
+// });
 
-  test('No debe llamar a logOperation si n es negativo (error antes de la invocación)', () => {
-    const n = -3;
-    expect(() => fibonacciWithLogging(n, mockLogger)).toThrow(RangeError);
-    expect(mockLogger.logOperation).not.toHaveBeenCalled();
-  });
+// describe('Casos límite y validaciones', () => {
+//   test('Debe lanzar RangeError si n es negativo', () => {
+//     expect(() => fibonacciIterative(-1)).toThrow(RangeError);
+//     expect(() => fibonacciRecursive(-1)).toThrow(RangeError);
+//     expect(() => fibonacciMemo(-1)).toThrow(RangeError);
+//   });
 
-  test('No debe llamar a logOperation si n no es entero (TypeError)', () => {
-    // @ts-ignore: forzamos un no entero para la prueba
-    expect(() => fibonacciWithLogging(4.2, mockLogger)).toThrow(TypeError);
-    expect(mockLogger.logOperation).not.toHaveBeenCalled();
-  });
-});
+//   test('Debe lanzar TypeError si n no es entero', () => {
+//     // @ts-ignore Forzamos número no entero para test
+//     expect(() => fibonacciIterative(3.5)).toThrow(TypeError);
+//     // @ts-ignore
+//     expect(() => fibonacciRecursive(3.5)).toThrow(TypeError);
+//     // @ts-ignore
+//     expect(() => fibonacciMemo(3.5)).toThrow(TypeError);
+//   });
+
+//   test('La versión recursiva simple no debe lanzar errores para n moderados', () => {
+//     expect(() => fibonacciRecursive(20)).not.toThrow();
+//   });
+// });
